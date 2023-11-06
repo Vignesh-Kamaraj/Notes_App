@@ -1,0 +1,42 @@
+.body {
+  height: 100vh !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  background-color: rgb(35, 207, 190);
+  padding: 10px 10px 10px 10px;
+  height: 100vh !important;
+}
+
+.card {
+  margin: 50px 25px 25px 50px;
+  padding: 10px 10px 10px 10px;
+  line-height: 12px;
+  box-shadow: 2px 2px 12px 2px rgba(10, 0, 4, 0.168);
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+#card {
+  width: 250px;
+  height: 200px;
+}
+
+#sidebar {
+  width: 20%;
+}
+
+.height {
+  height: 100vh !important;
+  overflow-y: scroll;
+}
+
+.edit {
+  display: flex;
+  align-self: flex-start !important;
+  width: 600px !important;
+  height: 200px;
+}
